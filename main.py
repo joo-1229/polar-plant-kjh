@@ -33,8 +33,9 @@ PLOTLY_FONT = dict(family="Malgun Gothic, Apple SD Gothic Neo, sans-serif")
 # ===============================
 # 상수 정의
 # ===============================
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path.cwd()
 DATA_DIR = BASE_DIR / "data"
+
 
 SCHOOL_EC = {
     "송도고": 1.0,
